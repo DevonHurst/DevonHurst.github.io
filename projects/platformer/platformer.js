@@ -63,7 +63,8 @@ $(function () {
     createPlatform(1000,700,100,10)
     createPlatform(850,700,100,10)
     createPlatform(1050,580,100,10)
-    
+    createPlatform(800,500,100,10)
+    createPlatform(600,400,100,10)    
     
     
     // TODO 2
@@ -88,6 +89,7 @@ $(function () {
     
     createCannon("bottom", 400,900, 10, 10)
     createCannon("top", 900, 1100, 10, 10)
+    createCannon("top", 1300, 1100, 10, 10)
 
     
     
