@@ -60,6 +60,9 @@ $(function () {
     createPlatform(720,500,100,10)
     createPlatform(800,350,100,10)
     createPlatform(900,250,500,100)
+    createPlatform(1000,700,100,10)
+    createPlatform(850,700,100,10)
+    createPlatform(1050,580,100,10)
     
     
     
@@ -68,6 +71,11 @@ $(function () {
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
+    createCollectable("diamond", 80, 80, 0, 10)
+    createCollectable("grace", 60, 600, 0, 0)
+    createCollectable("kennedi", 810, 610, 0, 700)
+    createCollectable("max", 900, 500, 100, 100)
+
     
     
     
@@ -79,7 +87,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
     
     createCannon("bottom", 400,900, 10, 10)
-    createCannon("top", 80, 1100, 10, 10)
+    createCannon("top", 900, 1100, 10, 10)
 
     
     
